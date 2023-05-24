@@ -1,0 +1,25 @@
+{
+    "name": "ubber-theme",
+    "displayName": "ubber-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ubberkid/ubber-theme"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "ubber-theme",
+                "uiTheme": "vs",
+                "path": "./themes/ubber-theme-color-theme.json"
+            }
+        ]
+    }
+}
